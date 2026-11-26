@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{baseUrl}}/api/categories"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Programming\",\r
+
+    \  \"description\": \"Kategori pengujian filtering Todo\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 1000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/api/categories/6af16eaafbc1d156f28dae16"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 5000

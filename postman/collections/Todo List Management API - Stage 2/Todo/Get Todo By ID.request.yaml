@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos?category=6af44ab2b93be7717a53597d"
+method: GET
+queryParams:
+  category: 6af44ab2b93be7717a53597d
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 3000

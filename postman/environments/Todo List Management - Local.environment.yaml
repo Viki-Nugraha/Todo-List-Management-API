@@ -1,0 +1,6 @@
+name: Todo List Management - Local
+values:
+  - key: baseUrl
+    value: ''
+  - key: token
+    value: ''

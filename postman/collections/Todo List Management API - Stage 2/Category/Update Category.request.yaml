@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{baseUrl}}/api/categories/6af16eaafbc1d156f28dae16"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"\",\r
+
+    \  \"description\": 123\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 4000

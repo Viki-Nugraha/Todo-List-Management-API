@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Todo Pagination 3\",\r
+
+    \  \"description\": \"Data pengujian pagination\",\r
+
+    \  \"status\": \"pending\",\r
+
+    \  \"priority\": \"high\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 1000

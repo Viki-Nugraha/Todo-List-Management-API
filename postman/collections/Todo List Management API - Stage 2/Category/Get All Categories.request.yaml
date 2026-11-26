@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/categories?sortBy=invalid&order=random&page=0&limit=200"
+method: GET
+queryParams:
+  sortBy: invalid
+  order: random
+  page: "0"
+  limit: "200"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 2000

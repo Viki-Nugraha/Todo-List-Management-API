@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos/6af5851cd1664054f26628e7"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 5000
